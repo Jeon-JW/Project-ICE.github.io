@@ -1,12 +1,12 @@
 ---
-title: "🤔 3. 작성 가이드"
+title: "🤔 1. 작성 가이드"
 description: "어떻게 글을 작성하고 추가할까요?"
-date: 2021-04-03
-update: 2021-04-03
+date: 2021-11-24
+update: 2021-11-28
 tags:
-  - hoodie
-  - writing-guide
-series: "gatsby-starter-hoodie 로 블로그 시작하기"
+  - adultLee
+  - Tutorial
+series: "Project-Ice 로 블로그 시작하기"
 ---
 
 ## 1. 포스트 추가하기
@@ -27,18 +27,19 @@ series: "gatsby-starter-hoodie 로 블로그 시작하기"
 
 ```
 ---
-title: "🤔 3. 작성 가이드"
+title: "🤔 1. 작성 가이드"
 description: "어떻게 글을 작성하고 추가할까요?"
 date: 2021-04-03
 update: 2021-04-03
 tags:
-  - hoodie
-  - writing-guide
-series: "gatsby-starter-hoodie 로 블로그 시작하기"
+  - adultLee
+  - Tutorial
+series: "Project-Ice 로 블로그 시작하기"
 ---
 ```
 
 위는 지금 여러분이 읽고 있는 문서의 Frontmatter 입니다. `title` 과 `date` 는 필수 값입니다. 띄어쓰기를 포함된 문자열을 입력할 때에는 따옴표로 감싸는 것을 추천합니다.
+`contents/example.md`의 내용을 복사하셔서 사용하시는것도 가능합니다.
 
 ### 1-3. 마크다운 작성하기
 
@@ -55,8 +56,10 @@ Prism.JS 에 기반한 코드 하이라이팅이 제공됩니다.
 Javascript
 
 ```javascript
-console.log("Hello, world!")
+console.log("Hello, world!");
 ```
+
+간단하게 js로 줄여서 작성하셔도 가능합니다.
 
 Python
 
@@ -102,4 +105,4 @@ Frontmatter 의 태그를 통해 쉽게 문서를 분류하고 검색할 수 있
 
 여러분이 연관된 여러개의 문서를 작성할 때 시리즈를 사용할 수 있습니다. Frontmatter 에 작성된 시리즈가 같은 문서끼리 묶여 문서 상단에 리스트로 표시됩니다. 시리즈는 일련의 순서가 있는 문서들을 작성할 때 유용하게 사용할 수 있습니다. 시리즈는 문서의 작성 날짜 순서대로 정렬됩니다.
 
-현재 문서는 `gatsby-starter-hoodie 로 블로그 시작하기` 라는 시리즈로 설정되어 있습니다.
+현재 문서는 `Tutorial 로 블로그 시작하기` 라는 시리즈로 설정되어 있습니다.

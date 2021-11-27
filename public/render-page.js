@@ -146,9 +146,9 @@ var plugins = [{
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-manifest/gatsby-ssr */ "./node_modules/gatsby-plugin-manifest/gatsby-ssr.js"),
   options: {
     "plugins": [],
-    "name": "hoodie",
-    "short_name": "hoodie",
-    "description": "Hello :) I'm Hudi who developed gatsby-starter-hoodie theme.",
+    "name": "Project-ICE",
+    "short_name": "Project-ICE",
+    "description": "Hello :) We are Project-ICE",
     "start_url": "/",
     "background_color": "#ffffff",
     "theme_color": "#ced4da",
@@ -176,7 +176,7 @@ var plugins = [{
     "feeds": [{
       "query": "\n              {\n                allMarkdownRemark(\n                  sort: { order: DESC, fields: [frontmatter___date] },\n                ) {\n                  edges {\n                    node {\n                      excerpt\n                      html\n                      fields { slug }\n                      frontmatter {\n                        title\n                        date\n                      }\n                    }\n                  }\n                }\n              }\n            ",
       "output": "/rss.xml",
-      "title": "RSS Feed of hoodie",
+      "title": "RSS Feed of Project-ICE",
       "match": "^/blog/"
     }]
   }
